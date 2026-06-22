@@ -1,4 +1,4 @@
-# Multi-trait Finlay-Wilkinson (MT-FW) regression
+# Dissecting the genetic architecture of multi-trait plasticity across crops
 
 This repository contains the R code and data accompanying the manuscript:
 
