@@ -60,7 +60,7 @@ GAPIT 3.
 | File | Description |
 |------|-------------|
 | `Maize_Pheno_Data_4Env.csv` | Maize hybrid panel: agronomic traits + selected NIRS spectral bands, 4 environments (146 genotypes) |
-| `Coffee_Pheno_Data_3Env.csv` | Three-way hybrid coffee population: agronomic and photosynthetic traits, 3 environments |
+| `Coffee_Pheno_Data_3Env.csv` | Three-way coffee hybrid population: agronomic and photosynthetic traits, 3 environments |
 | `my_combined_betas_Maize.csv` | Combined single-trait and multi-trait FW slopes; first column = genotype; used directly as the GWAS phenotype input |
 | `SNP60000_Common146_Maize.hmp.txt` | Maize GBS SNP genotypes in HapMap format (read with `header = FALSE`) |
 | `table_GWAS_Results_snpbiall.csv` | Master summary of all GWAS associations |
