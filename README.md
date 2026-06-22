@@ -1,4 +1,4 @@
-# Multi-trait Finlay-Wilkinson (MT-FW)
+# Multi-trait Finlay-Wilkinson (MT-FW) 
 
 This repository contains the R code and data accompanying the manuscript:
 
