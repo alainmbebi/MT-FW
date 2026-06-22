@@ -167,8 +167,8 @@ exploratory threshold (e.g. −log₁₀P = 4.0) used in the paper.
 
 Released under the MIT License — see [`LICENSE`](LICENSE).
 
-The bundled phenotype and genotype data are provided for reproducibility of the
-associated publication. The GAPIT functions file is the property of the GAPIT
+The phenotype and genotype data are from previous publications and are provided here for reproducibility only. 
+The GAPIT functions file is the property of the GAPIT
 authors and is **not** redistributed here; download it from
 <https://zzlab.net/GAPIT/>.
 
