@@ -2,12 +2,12 @@
 
 This repository contains the R code and data accompanying the manuscript:
 
-> **Dissecting the genetic architecture of multi-trait plasticity across crops.**
+> **Dissecting the genetic architecture of multi-trait plasticity across crops**
 
 The pipeline estimates genotype **plasticity slopes** with single-trait and
-multi-trait Finlay–Wilkinson (FW) regression — the latter built on non-negative matrix
-decompositions, namely the classical non-negative matrix factororization (NMF) and the non-negative 
-principal component analysis (PCA) of the multi-trait phenotype matrix;
+multi-trait Finlay–Wilkinson (FW) regression, with the latter building on non-negative matrix
+decompositions, such as: the classical non-negative matrix factororization (NMF) and the non-negative 
+principal component analysis (NNPCA) of the multi-trait phenotype matrix;
 and then determines the genetic architecture of those slopes in GWAS using FarmCPU from
 GAPIT 3.
 
@@ -63,7 +63,7 @@ GAPIT 3.
 | `Coffee_Pheno_Data_3Env.csv` | Three-way coffee hybrid population: agronomic and photosynthetic traits, 3 environments |
 | `my_combined_betas_Maize.csv` | Combined single-trait and multi-trait FW slopes; first column = genotype; used directly as the GWAS phenotype input |
 | `SNP60000_Common146_Maize.hmp.txt` | Maize GBS SNP genotypes in HapMap format (read with `header = FALSE`) |
-| `table_GWAS_Results_snpbiall.csv` | Master summary of all GWAS associations |
+| `table_GWAS_Results_snpbiall.csv` | Summary table of all GWAS associations |
 
 ---
 
@@ -86,7 +86,7 @@ install.packages(c(
 ))
 ```
 
-GAPIT 3 is sourced at run time (not installed from CRAN):
+Because of some updates, GAPIT 3 is sourced at run time and not installed from CRAN:
 
 ```r
 source("https://zzlab.net/GAPIT/GAPIT.library.R")
@@ -114,7 +114,7 @@ setwd("R/01_finlay_wilkinson")
 source("FW_ST_MT.R")
 ```
 
-Produces single-trait slopes, the non-negative decompositions (NMF, nnPCA) with
+Produces single-trait slopes, the non-negative decompositions (NMF, NNPCA) with
 their score and loading matrices, and the multi-trait slopes.
 
 ### Stage 2 — GWAS
